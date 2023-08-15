@@ -10,13 +10,23 @@
 }
 
 .error{
-    padding-bottom: 20px;
+    margin-bottom: 20px;
+    color: rgb(175, 0, 0);
+    /* display: none; */
+}
+
+.cardInput{
+    margin-bottom: 23px
+}
+
+.date{
+    margin-bottom: 23px
 }
 
 .container{
     height: 100vh;
     width: 100%;
-    background: powderblue;
+    /* background: powderblue; */
     display: flex;
     
 }
@@ -69,14 +79,18 @@
 }
 
 .cardNumber{
-    font-size: 27px;
-    color: white;
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.9);
+    height: 80%;
 }
 
 .info{
+    height: 30%;
     display: flex;
-    background: powderblue;
     justify-content: space-between;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.9);
+    align-items: flex-end
 }
 
 
@@ -93,8 +107,18 @@
     position: absolute;
     top: 420px;
     left: 200px;
+    padding-top: 102px;
+    padding-left: 55px;
+    padding-right: 40px;
+    display: flex;
+    justify-content: flex-end;
+    color: rgba(255, 255, 255, 0.9);
 
 }
+
+
+
+
 
 
 
@@ -110,10 +134,11 @@
 .formbox{
     height: auto;
     width: 420px;
-    background: teal;
+    /* background: teal; */
     display: flex;
     flex-direction: column;
     padding: 20px;
+    /* display: none; */
 }
 
 .inputlabel{
@@ -131,7 +156,10 @@
     /* margin-bottom: 20px; */
     margin-top: 3px;
     padding-left: 16px;
+    transition: border-color 0.3s;
 }
+
+
 
 #cnumber{
     width: 100%;
@@ -214,5 +242,75 @@
     background: #220930;
     color: white;
     font-size: 18px;
+    margin-top: 0px;
+}
+
+
+
+
+
+
+.thankyou{
+    height: 320px;
+    width: 420px;
+    /* background: teal; */
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    display: none;
+}
+
+.top{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.thankyoucircle{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background: linear-gradient(360deg, #3b0567, #6325D0,#7e5ffc);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+
+
+
+.bottom{
+    height: 55%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.heading{
+    font-size: 32px;
+
+}
+
+.textbody{
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.558);
+
+}
+.continuebutton{
+    width: 100%;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 9px;
+    border: none;
+    background: #220930;
+    color: white;
+    font-size: 18px;
     margin-top: 15px;
 }
+
+
