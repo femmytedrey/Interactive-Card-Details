@@ -314,3 +314,13 @@
 }
 
 
+
+@media (max-width: 1024px) {
+    /* Adjust positioning and layout styles for tablets */
+}
+
+/* Styles for mobile devices */
+@media (max-width: 768px) {
+    /* Adjust positioning and layout styles for mobile devices */
+}
+
