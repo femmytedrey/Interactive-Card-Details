@@ -34,16 +34,16 @@
   
       <div class="right">
         <div class="formbox">
-          <form action="">
+          <form action="" id="formboxcont">
             <div class="cardInput">
               <label for="cname" class="inputlabel">CARDHOLDER NAME</label><br>
               <input type="text" id = "cname" name="cname" placeholder="e.g. Jane Appleseed">
-              <div class="error"></div>
+              <div class="error" id="cname-error"></div>
             </div>
   
             <div class="cardInput">
               <label for="cnumber" class="inputlabel">CARD NUMBER</label><br>
-              <input type="text" id = "cnumber" name="cnumber" placeholder="e.g. 1234 5678 9123 0000">
+              <input type="text" id = "cnumber" name="cnumber" maxlength="19" placeholder="e.g. 1234 5678 9123 0000">
               <div class="error"></div>
             </div>
   
@@ -52,12 +52,12 @@
                   <label for="expDate" class="datelabel">EXP. DATE (MM/YY)<br></label>
                   <div class="dateinputbox">
                     <div class="datainputboxleft">
-                      <input type="text" id="expDate" name="expDate" maxlength="2" placeholder="MM">
+                      <input type="text" id="expDate" name="expDate" maxlength="2" placeholder="MM" class="month">
                     <div class="error"></div>
                     </div>
 
                     <div class="datainputboxleft">
-                      <input type="text" id="expDate" name="expDate" maxlength="2" placeholder="YY">
+                      <input type="text" id="expDate" name="expDate" maxlength="2" placeholder="YY" class="year">
                       <div class="error"></div>
                     </div>
                   </div>
