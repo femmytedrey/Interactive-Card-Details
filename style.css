@@ -309,7 +309,8 @@
         width: 65%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
+        padding-top: 160px;
         
     }
     
@@ -337,7 +338,8 @@
         width: 100%;
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
+        padding-top: 160px;
         
     }
     .card1{
